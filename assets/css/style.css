@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.links {
+	left: 30px;
+	position: relative;
+	top: 10px;
+}
+
+.title {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding: 35px;
+  	font-family: 'Georgia', Times New Roman, seriff;
+  	background-color: #4aaaa5;
+  	height: 100px;
+  	width: 20%;
+  	top: 0;
+  	left: 125px;
+  	position: absolute;
+  	
+}
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	height: 100px;
+	width: 100%;
+	border: solid 1px #dddddd;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.style {
+	color: #cccccc;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 15px;
+	line-height: 1px;
+}
+
+.portfolio {
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-seriff;
+	color: #777777;
+	padding: 20px;
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	width: 650px;
+	height: 750px;
+	display: inline-block;
+	position: absolute;
+	top: 150px;
+	left: 125px;
+	margin-bottom: 50px;
+}
+
+.flags {
+	position: absolute;
+	top: 250px;
+	left: 30px;
+	text-align: center;
+	line-height: 55px;
+	width: 280px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.films {
+	position: absolute;
+	top: 250px;
+	left: 330px;
+	text-align: center;
+	line-height: 55px;
+	width: 280px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.climbing {
+	position: absolute;
+	top: 470px;
+	left: 30px;
+	text-align: center;
+	line-height: 55px;
+	width: 280px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.pets {
+	position: absolute;
+	top: 470px;
+	left: 330px;
+	text-align: center;
+	line-height: 55px;
+	width: 280px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.music {
+	position: absolute;
+	top: 690px;
+	left: 30px;
+	text-align: center;
+	line-height: 55px;
+	width: 280px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.image-block {
+	border: solid 25px #4aaaa5;
+	width: 280px;
+	height: 110px;
+}
+
+body {
+	background-image: url(spiration-light.png);
+	background-repeat: repeat-y repeat-x;
+	border-color: #dddddd;
+	background-color: #ffffff;
+	width: 960px;
+	margin: 0 0 100px;
+	padding: 25px;
+}
+
+ol {
+	padding: 0;
+	margin-right: 25px;
+	position: absolute;
+	left: 835px;
+	display: inline;
+}
+
+li {
+	font-size: 15px;
+	display: inline;
+	float: right;
+	margin-right: 20px;
+	margin-top: 25px;
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-color: #cccccc;
+	border-style: solid;
+
+}
+
+.lastitem {
+	border-right: 0px;
+}
+
+h1 {
+	float: left;
+	color: #4aaaa5;
+	margin-bottom: 10px;
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	width: 620px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	padding: 10px;
+}
+
+p {
+	line-height: 50px;
+	padding: 10px;
+}
+
+.secondparagraph {
+	position: absolute;
+	top: 265px;
+}
+
+h2 {
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	width: 250px;
+	text-align: center;
+	left: 50px;
+	margin-left: 5px;
+	padding-bottom: 10px;
+}
+
+.container {
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	width: 270px;
+	height: 170px;
+	display: inline-block;
+	position: absolute;
+	top: 150px;
+	left: 830px;
+	position: absolute;
+}
+
+.AboutMe {
+	color: #777777;
+	margin: 20px;
+	margin-top: 55px;
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	width: 650px;
+	height:500px;
+	left: 105px;
+	margin-bottom: 50px;
+	position: absolute;
+	padding: 10px;
+}
+
+.AboutMeImage {
+	bottom: 50px;
+	border: solid 1px #dddddd;
+}
+
+img {
+	float: left;
+	margin: 10px;
+}
+
+video {
+	float: left;
+	margin: 10px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #4aaaa5;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: white;
+}
+
+.container1 {
+	background-color: white;
+	padding: 10px;
+	margin-top: 125px;
+	margin-left: 100px;
+	width: 650px;
+	border: solid 1px #dddddd;
+}
+
+#aboutme {
+	margin-left: 10px;
+}
+
+#portfolio {
+	margin-right: 10px;
+}
+
+.teal {
+	background-color: #4aaaa5;
+	width: 100%;
+	left: 0;
+	height: 10px;
+	bottom: 0px;
+	position: absolute;
+}
+
+footer {
+	background-color: #666666;
+	border: solid;
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	height: 100px;
+	left: 0;
+	bottom: -300px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	line-height: 100px;
+	
